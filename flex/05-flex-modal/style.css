@@ -14,12 +14,21 @@ body {
   align-items: center;
   justify-content: center;
 }
+.header{
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.container{
+  padding: 10px;
+}
 
 .modal {
+  display: flex;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 10px;
 }
 
 .icon {
@@ -29,6 +38,7 @@ body {
   background: lavender;
   width: 42px;
   height: 42px;
+  flex-shrink: 0;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -48,12 +58,15 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  flex-shrink: 0;
+  
 }
 
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  margin: 5px 2px;
 }
 
 button.continue {
